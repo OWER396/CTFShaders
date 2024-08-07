@@ -6,8 +6,8 @@
 
 	<sampler>
 		<index>1</index>
-		<addressU>mirror</addressU>
-		<addressV>mirror</addressV>
+		<addressU>clamp</addressU>
+		<addressV>clamp</addressV>
 	</sampler>
 
 	<parameter>

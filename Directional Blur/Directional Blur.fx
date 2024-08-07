@@ -1,5 +1,5 @@
 sampler2D img : register(s0);
-sampler2D bg : register(s1) = sampler_state {addressU = mirror; addressV = mirror;};
+sampler2D bg : register(s1) = sampler_state {addressU = clamp; addressV = clamp;};
 
 #define samples 16
 
